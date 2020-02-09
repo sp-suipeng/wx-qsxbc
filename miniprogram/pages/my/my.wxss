@@ -1,0 +1,29 @@
+/**index.wxss**/
+/*欢迎*/
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+/*头像*/
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  align-items: center;
+  margin-top: 10px;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}
+
+.usermotto {
+  margin-top: 50px;
+}
+.welcome{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}

@@ -1,0 +1,9 @@
+{
+  "usingComponents": {},
+  "navigationBarBackgroundColor": "#ffff33",
+  "navigationBarTextStyle": "black",
+  "navigationBarTitleText": "文章收藏",
+  "backgroundColor": "#eeeeee",
+  "backgroundTextStyle": "light",
+   "enablePullDownRefresh": true
+}

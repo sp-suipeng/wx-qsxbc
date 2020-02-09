@@ -1,0 +1,27 @@
+<!--articles/article_1/article_1.wxml-->
+<view class="page">
+  <view class="page__hd">
+  </view>
+  <view class="page__bd">
+    <view class="weui-article">
+      <!-- 这里是文章主题 -->
+      <view class="weui-article__h1">{{article_name}}</view>
+      <view class="weui-article__section">
+        <view class="weui-article__h2">{{article_theme}}</view>
+        <view class="weui-article__section">
+          <view wx:for="{{article_littlenames}}">
+            <view class="weui-article__h3">{{index}}.{{item}}</view>
+
+            <view class="weui-article__p">{{article_texts[index]}}</view>
+          </view>
+
+          <!-- <view class="weui-article__p">
+            <image class="weui-article__img" src="/images/hello.png" mode="aspectFit" style="height: 180px" />
+            <image class="weui-article__img" src="/images/java.png" mode="aspectFit" style="height: 180px" />
+          </view> -->
+        </view>
+
+      </view>
+    </view>
+  </view>
+</view>

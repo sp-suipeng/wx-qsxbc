@@ -1,0 +1,19 @@
+<!--miniprogram/pages/pjlearn/python/python.wxml-->
+<view wx:for="{{array}}">
+
+  <view class="weui-panel weui-panel_access ">
+    <!-- <view class="weui-panel__bd"> -->
+    <navigator url="/articles/article_1/article_1?articleType={{item.flag}}&&articleName={{item.article_name}}">
+      <view class="weui-media-box weui-media-box_text " style="left:{{-arr[index]}}px;border-radius: 5px;width:{{screenWidth}};z-index:0" data-index="{{index}}" bindtouchstart="touchStart" bindtouchmove="touchMove" bindtouchend="touchEnd">
+        <view class="weui-media-box__title weui-media-box__title_in-text">{{item["article_name"]}}</view>
+        <view class="weui-media-box__desc">{{item["article_theme"]}}</view>
+
+      </view>
+
+    </navigator>
+    <button class="del" style="left:{{buttonLeft[index]}}px" bindtap="saveToFav">收藏</button>
+    <!-- </view> -->
+
+  </view>
+
+</view>

@@ -1,0 +1,2 @@
+/* articles/article_1/article_1.wxss */
+@import "/weui.wxss"

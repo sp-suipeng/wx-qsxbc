@@ -1,0 +1,70 @@
+<!--pages/test/test.wxml-->
+<view>{{ttt}}</view>
+<!-- <view>
+<button bindtap="connectdb">点我</button>
+</view> -->
+<view class="imageBuju">
+  <image src="/images/hello.png"></image>
+</view>
+<view>
+  <view class="page">
+    <view class="page__bd">
+      <view class="weui-grids">
+        <block>
+          <navigator url="../pjlearn/python/python" class="weui-grid" hover-class="weui-grid_active">
+            <image class="weui-grid__icon" src="/images/python.png" />
+            <view class="weui-grid__label">Python</view>
+          </navigator>
+          <navigator url="../pjlearn/pythonk/pythonk" class="weui-grid" hover-class="weui-grid_active">
+            <image class="weui-grid__icon" src="/images/python.png" />
+            <view class="weui-grid__label">python框架</view>
+          </navigator>
+          <navigator url="../pjlearn/java/java" class="weui-grid" hover-class="weui-grid_active">
+            <image class="weui-grid__icon" src="/images/java.png" />
+            <view class="weui-grid__label">java</view>
+          </navigator>
+          <navigator url="../pjlearn/javak/javak" class="weui-grid" hover-class="weui-grid_active">
+            <image class="weui-grid__icon" src="/images/java.png" />
+            <view class="weui-grid__label">java框架</view>
+          </navigator>
+        </block>
+      </view>
+    </view>
+  </view>
+</view>
+
+<view>
+  <view class="page">
+    <view class="page__hd">
+    </view>
+    <view class="weui-panel weui-panel_access">
+      <view class="weui-panel__hd">热门文章</view>
+      <view class="weui-panel__bd">
+        
+        <navigator url="/pages/logs/logs"  hover-class="weui-grid_active">
+        <view class="weui-media-box weui-media-box_text">
+        <view class="weui-media-box__title weui-media-box__title_in-text">Python</view>
+          <view class="weui-media-box__desc">input和print的别样用法！</view>
+          </view>
+        </navigator>
+          
+        
+        <navigator>
+        <view class="weui-media-box weui-media-box_text">
+          <view class="weui-media-box__title weui-media-box__title_in-text">Java</view>
+          <view class="weui-media-box__desc">注解的神奇妙用！</view>
+        </view>
+        </navigator>
+        
+      </view>
+      <view class="weui-panel__ft">
+        <view class="weui-cell weui-cell_access weui-cell_link">
+          <view class="weui-cell__bd">查看更多</view>
+          <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+        </view>
+      </view>
+    </view>
+
+  </view>
+
+</view>

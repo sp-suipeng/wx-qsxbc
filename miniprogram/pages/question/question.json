@@ -1,0 +1,8 @@
+{
+  "usingComponents": {},
+  "navigationBarBackgroundColor": "#ff3333",
+  "navigationBarTextStyle": "black",
+  "navigationBarTitleText": "发起提问",
+  "backgroundColor": "#eeeeee",
+  "backgroundTextStyle": "light"
+}

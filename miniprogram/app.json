@@ -1,0 +1,46 @@
+{
+  "pages": [
+    
+
+    "pages/learn/learn",
+    "pages/logs/logs",
+    "pages/my/my",
+    "pages/question/question",
+    "pages/favorite/favorite",
+    "articles/article_1/article_1",
+    "pages/pjlearn/python/python",
+    "pages/pjlearn/pythonk/pythonk",
+    "pages/pjlearn/java/java",
+    "pages/pjlearn/javak/javak",
+    "pages/testpage/test"
+    
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#aaa",
+    "navigationBarTitleText": "学得快编程",
+    "navigationBarTextStyle": "black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/learn/learn",
+        "text": "学习"
+      },
+      {
+        "pagePath": "pages/question/question",
+        "text": "提问"
+      },
+      {
+        "pagePath": "pages/favorite/favorite",
+        "text": "收藏"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我的"
+      }
+    ]
+  }
+}

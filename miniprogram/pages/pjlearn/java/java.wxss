@@ -1,0 +1,18 @@
+/* miniprogram/pages/pjlearn/java/java.wxss */
+@import "/weui.wxss"
+.del{
+  position: absolute; 
+  z-index: 0;
+  top:1px;
+  bottom: 1px;
+  width: 70px;
+  height: 100%;
+  background-color: red;
+  
+  display: flex;
+  /* margin-left: 40rpx; */
+  padding-left: 40rpx;
+  /* margin-top: 40rpx; */
+  padding-top: 50rpx;
+  border-radius: 5px;
+}

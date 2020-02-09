@@ -1,0 +1,9 @@
+{
+  "usingComponents": {},
+
+    "navigationBarBackgroundColor": "#33ff33",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "编程学习",
+    "backgroundColor": "#eeeeee",
+    "backgroundTextStyle": "light"
+}

@@ -1,0 +1,10 @@
+/* pages/test/test.wxss */
+@import "/weui.wxss";
+.weui-grids{
+  position: flex;
+  display: flex;
+}
+.imageBuju{
+  display: flex;
+  justify-content: center;
+}
